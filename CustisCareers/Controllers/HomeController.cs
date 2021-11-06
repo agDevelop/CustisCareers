@@ -2,17 +2,13 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
 using System.Net;
-using System.Threading.Tasks;
 
 namespace CustisCareers.Controllers
 {
     public class HomeController : Controller
     {
-        public string resp { get; set; } = "tst";
 
         string client_id = "RP8UM22DLATRJ880AAAAVC83ERFDUV3L6PEP7BLHJBDTH0078OP45R2LMI9KS7OH";
         string secret = "NTH5OP3O918OKTHDQMCDTIP6GK5VVI75O5OUBMNO12512DI9MABTL35UG1I6QGNV";
